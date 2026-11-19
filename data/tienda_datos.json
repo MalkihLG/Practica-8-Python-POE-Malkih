@@ -1,0 +1,1040 @@
+{
+  "version": 1,
+  "edicion_catalogo": 2,
+  "secuencia_venta": 5,
+  "usuarios": {
+    "admin": {
+      "rol": "Administrador",
+      "salt": "b81407269a67df63efda53aff2f095d6",
+      "hash": "c8108491f7925d54e70b8516d204e9ed6dac7db4fce92cabcdb43b3d71618d36"
+    },
+    "cajero": {
+      "rol": "Cajero",
+      "salt": "48435a924ea7af4ee979c77ebf4bee1b",
+      "hash": "a378d5b6add41d795468cd551175b02b198ef5516b249296e0121dd4e42bfdf0"
+    },
+    "inventario": {
+      "rol": "Inventario",
+      "salt": "e06bfb7a7afeb785d1495a2ef001b2b1",
+      "hash": "d951c9ecbc41bafaa0e5f17da8037f144ec74bb540722902126abb8a738cc0e2"
+    }
+  },
+  "clientes": {
+    "C001": {
+      "nombre": "Malkih López González",
+      "telefono": "7711643054"
+    },
+    "C002": {
+      "nombre": "Sar López González",
+      "telefono": "7757654321"
+    },
+    "C003": {
+      "nombre": "Alondra Bautista Flores",
+      "telefono": "7721342762"
+    },
+    "C004": {
+      "nombre": "Jóse Alberto Hernandez Cruz",
+      "telefono": "2382487093"
+    },
+    "C005": {
+      "nombre": "Diana Nicole Uribe Hernandez",
+      "telefono": "5519179511"
+    },
+    "C006": {
+      "nombre": "Ernesto Antonio",
+      "telefono": "7711234567"
+    },
+    "C007": {
+      "nombre": "David Jhonatan",
+      "telefono": "7712345498"
+    }
+  },
+  "productos": {
+    "P001": {
+      "nombre": "Pastel de tres leches",
+      "categoria": "Pasteles y postres",
+      "precio": "350.00",
+      "stock": 7
+    },
+    "P002": {
+      "nombre": "Pastel de chocolate",
+      "categoria": "Pasteles y postres",
+      "precio": "350.00",
+      "stock": 8
+    },
+    "P003": {
+      "nombre": "Pastel red velvet",
+      "categoria": "Pasteles y postres",
+      "precio": "350.00",
+      "stock": 8
+    },
+    "P004": {
+      "nombre": "Pastel de zarzamora con queso",
+      "categoria": "Pasteles y postres",
+      "precio": "350.00",
+      "stock": 3
+    },
+    "P005": {
+      "nombre": "Pastel de fresas con crema",
+      "categoria": "Pasteles y postres",
+      "precio": "380.00",
+      "stock": 8
+    },
+    "P006": {
+      "nombre": "Pastel de vainilla y frutos rojos",
+      "categoria": "Pasteles y postres",
+      "precio": "365.00",
+      "stock": 6
+    },
+    "P007": {
+      "nombre": "Pastel de zanahoria",
+      "categoria": "Pasteles y postres",
+      "precio": "320.00",
+      "stock": 10
+    },
+    "P008": {
+      "nombre": "Rebanada de pastel de fresa",
+      "categoria": "Pasteles y postres",
+      "precio": "45.00",
+      "stock": 24
+    },
+    "P009": {
+      "nombre": "Rebanada de pastel de chocolate",
+      "categoria": "Pasteles y postres",
+      "precio": "48.00",
+      "stock": 24
+    },
+    "P010": {
+      "nombre": "Alfajor artesanal",
+      "categoria": "Especialidades",
+      "precio": "35.00",
+      "stock": 25
+    },
+    "P011": {
+      "nombre": "Pay de zarzamora",
+      "categoria": "Pasteles y postres",
+      "precio": "150.00",
+      "stock": 25
+    },
+    "P012": {
+      "nombre": "Flan napolitano",
+      "categoria": "Pasteles y postres",
+      "precio": "150.00",
+      "stock": 25
+    },
+    "P013": {
+      "nombre": "Gelatina de frutas",
+      "categoria": "Pasteles y postres",
+      "precio": "150.00",
+      "stock": 25
+    },
+    "P014": {
+      "nombre": "Cheesecake individual",
+      "categoria": "Pasteles y postres",
+      "precio": "52.00",
+      "stock": 25
+    },
+    "P015": {
+      "nombre": "Tartaleta de kiwi",
+      "categoria": "Pasteles y postres",
+      "precio": "48.00",
+      "stock": 25
+    },
+    "P016": {
+      "nombre": "Tartaleta de frutos rojos",
+      "categoria": "Pasteles y postres",
+      "precio": "48.00",
+      "stock": 25
+    },
+    "P017": {
+      "nombre": "Cupcake de vainilla",
+      "categoria": "Especialidades",
+      "precio": "28.00",
+      "stock": 25
+    },
+    "P018": {
+      "nombre": "Cupcake de chocolate",
+      "categoria": "Especialidades",
+      "precio": "32.00",
+      "stock": 25
+    },
+    "P019": {
+      "nombre": "Macaron de fresa",
+      "categoria": "Especialidades",
+      "precio": "25.00",
+      "stock": 25
+    },
+    "P020": {
+      "nombre": "Trufa de chocolate",
+      "categoria": "Especialidades",
+      "precio": "28.00",
+      "stock": 25
+    },
+    "P021": {
+      "nombre": "Brownie clásico",
+      "categoria": "Galletas y brownies",
+      "precio": "42.00",
+      "stock": 25
+    },
+    "P022": {
+      "nombre": "Brownie con nueces",
+      "categoria": "Galletas y brownies",
+      "precio": "48.00",
+      "stock": 25
+    },
+    "P023": {
+      "nombre": "Galleta decorada",
+      "categoria": "Galletas y brownies",
+      "precio": "25.00",
+      "stock": 25
+    },
+    "P024": {
+      "nombre": "Galleta con chispas",
+      "categoria": "Galletas y brownies",
+      "precio": "22.00",
+      "stock": 25
+    },
+    "P025": {
+      "nombre": "Waffle con chocolate",
+      "categoria": "Desayunos dulces",
+      "precio": "65.00",
+      "stock": 25
+    },
+    "P026": {
+      "nombre": "Helado de vainilla",
+      "categoria": "Helados y fríos",
+      "precio": "40.00",
+      "stock": 25
+    },
+    "P027": {
+      "nombre": "Panqué de plátano",
+      "categoria": "Panadería",
+      "precio": "45.00",
+      "stock": 25
+    },
+    "P028": {
+      "nombre": "Tiramisú individual",
+      "categoria": "Pasteles y postres",
+      "precio": "62.00",
+      "stock": 25
+    },
+    "P029": {
+      "nombre": "Hojaldre salado de pollo",
+      "categoria": "Especialidades",
+      "precio": "99.00",
+      "stock": 25
+    },
+    "P030": {
+      "nombre": "Hojaldre dulce de frutos",
+      "categoria": "Especialidades",
+      "precio": "99.00",
+      "stock": 25
+    },
+    "P031": {
+      "nombre": "Charola de mini tartas",
+      "categoria": "Especialidades",
+      "precio": "99.00",
+      "stock": 25
+    },
+    "P032": {
+      "nombre": "Surtido de bocaditos (12 pzas)",
+      "categoria": "Especialidades",
+      "precio": "99.00",
+      "stock": 25
+    },
+    "P033": {
+      "nombre": "Pancakes con frutos rojos",
+      "categoria": "Especialidades",
+      "precio": "75.00",
+      "stock": 25
+    },
+    "P034": {
+      "nombre": "Croissant con jamón y queso",
+      "categoria": "Especialidades",
+      "precio": "60.00",
+      "stock": 25
+    },
+    "P035": {
+      "nombre": "Empanaditas de carne · 25 pzas",
+      "categoria": "Panadería",
+      "precio": "240.00",
+      "stock": 12
+    },
+    "P036": {
+      "nombre": "Empanaditas de carne · 50 pzas",
+      "categoria": "Panadería",
+      "precio": "450.00",
+      "stock": 12
+    },
+    "P037": {
+      "nombre": "Empanaditas de carne · 100 pzas",
+      "categoria": "Panadería",
+      "precio": "800.00",
+      "stock": 7
+    },
+    "P038": {
+      "nombre": "Empanaditas de jamón y queso · 25 pzas",
+      "categoria": "Panadería",
+      "precio": "240.00",
+      "stock": 12
+    },
+    "P039": {
+      "nombre": "Empanaditas de jamón y queso · 50 pzas",
+      "categoria": "Panadería",
+      "precio": "450.00",
+      "stock": 12
+    },
+    "P040": {
+      "nombre": "Empanaditas de jamón y queso · 100 pzas",
+      "categoria": "Panadería",
+      "precio": "800.00",
+      "stock": 7
+    },
+    "P041": {
+      "nombre": "Enrolladitos de hot dog · 25 pzas",
+      "categoria": "Panadería",
+      "precio": "200.00",
+      "stock": 12
+    },
+    "P042": {
+      "nombre": "Enrolladitos de hot dog · 50 pzas",
+      "categoria": "Panadería",
+      "precio": "350.00",
+      "stock": 12
+    },
+    "P043": {
+      "nombre": "Enrolladitos de hot dog · 100 pzas",
+      "categoria": "Panadería",
+      "precio": "600.00",
+      "stock": 7
+    },
+    "P044": {
+      "nombre": "Empanaditas mixtas de hojaldre · 25 pzas",
+      "categoria": "Panadería",
+      "precio": "200.00",
+      "stock": 12
+    },
+    "P045": {
+      "nombre": "Empanaditas mixtas de hojaldre · 50 pzas",
+      "categoria": "Panadería",
+      "precio": "350.00",
+      "stock": 12
+    },
+    "P046": {
+      "nombre": "Empanaditas mixtas de hojaldre · 100 pzas",
+      "categoria": "Panadería",
+      "precio": "600.00",
+      "stock": 7
+    },
+    "P047": {
+      "nombre": "Tequeños de queso con salsa · 25 pzas",
+      "categoria": "Panadería",
+      "precio": "200.00",
+      "stock": 12
+    },
+    "P048": {
+      "nombre": "Tequeños de queso con salsa · 50 pzas",
+      "categoria": "Panadería",
+      "precio": "380.00",
+      "stock": 12
+    },
+    "P049": {
+      "nombre": "Tequeños de queso con salsa · 100 pzas",
+      "categoria": "Panadería",
+      "precio": "700.00",
+      "stock": 7
+    },
+    "P050": {
+      "nombre": "Tequeños de hot dog con salsa · 25 pzas",
+      "categoria": "Panadería",
+      "precio": "200.00",
+      "stock": 12
+    },
+    "P051": {
+      "nombre": "Tequeños de hot dog con salsa · 50 pzas",
+      "categoria": "Panadería",
+      "precio": "380.00",
+      "stock": 12
+    },
+    "P052": {
+      "nombre": "Tequeños de hot dog con salsa · 100 pzas",
+      "categoria": "Panadería",
+      "precio": "700.00",
+      "stock": 7
+    },
+    "P053": {
+      "nombre": "Boliyucas de queso · 25 pzas",
+      "categoria": "Panadería",
+      "precio": "240.00",
+      "stock": 12
+    },
+    "P054": {
+      "nombre": "Boliyucas de queso · 50 pzas",
+      "categoria": "Panadería",
+      "precio": "450.00",
+      "stock": 12
+    },
+    "P055": {
+      "nombre": "Boliyucas de queso · 100 pzas",
+      "categoria": "Panadería",
+      "precio": "800.00",
+      "stock": 7
+    },
+    "P056": {
+      "nombre": "Quiche lorraine mini · 25 pzas",
+      "categoria": "Panadería",
+      "precio": "350.00",
+      "stock": 12
+    },
+    "P057": {
+      "nombre": "Quiche lorraine mini · 50 pzas",
+      "categoria": "Panadería",
+      "precio": "650.00",
+      "stock": 12
+    },
+    "P058": {
+      "nombre": "Quiche lorraine mini · 100 pzas",
+      "categoria": "Panadería",
+      "precio": "1200.00",
+      "stock": 7
+    },
+    "P059": {
+      "nombre": "Quiche de poro mini · 25 pzas",
+      "categoria": "Panadería",
+      "precio": "350.00",
+      "stock": 12
+    },
+    "P060": {
+      "nombre": "Quiche de poro mini · 50 pzas",
+      "categoria": "Panadería",
+      "precio": "650.00",
+      "stock": 12
+    },
+    "P061": {
+      "nombre": "Quiche de poro mini · 100 pzas",
+      "categoria": "Panadería",
+      "precio": "1200.00",
+      "stock": 7
+    },
+    "P062": {
+      "nombre": "Quiche de atún mini · 25 pzas",
+      "categoria": "Panadería",
+      "precio": "350.00",
+      "stock": 12
+    },
+    "P063": {
+      "nombre": "Quiche de atún mini · 50 pzas",
+      "categoria": "Panadería",
+      "precio": "650.00",
+      "stock": 12
+    },
+    "P064": {
+      "nombre": "Quiche de atún mini · 100 pzas",
+      "categoria": "Panadería",
+      "precio": "1200.00",
+      "stock": 7
+    },
+    "P065": {
+      "nombre": "Empanadas dulces · 25 pzas",
+      "categoria": "Especialidades",
+      "precio": "150.00",
+      "stock": 12
+    },
+    "P066": {
+      "nombre": "Empanadas dulces · 50 pzas",
+      "categoria": "Especialidades",
+      "precio": "280.00",
+      "stock": 12
+    },
+    "P067": {
+      "nombre": "Empanadas dulces · 100 pzas",
+      "categoria": "Especialidades",
+      "precio": "500.00",
+      "stock": 7
+    },
+    "P068": {
+      "nombre": "Alfajores mini · 25 pzas",
+      "categoria": "Especialidades",
+      "precio": "200.00",
+      "stock": 12
+    },
+    "P069": {
+      "nombre": "Alfajores mini · 50 pzas",
+      "categoria": "Especialidades",
+      "precio": "380.00",
+      "stock": 12
+    },
+    "P070": {
+      "nombre": "Alfajores mini · 100 pzas",
+      "categoria": "Especialidades",
+      "precio": "700.00",
+      "stock": 7
+    },
+    "P071": {
+      "nombre": "Niditos de amor · 25 pzas",
+      "categoria": "Especialidades",
+      "precio": "200.00",
+      "stock": 12
+    },
+    "P072": {
+      "nombre": "Niditos de amor · 50 pzas",
+      "categoria": "Especialidades",
+      "precio": "380.00",
+      "stock": 12
+    },
+    "P073": {
+      "nombre": "Niditos de amor · 100 pzas",
+      "categoria": "Especialidades",
+      "precio": "700.00",
+      "stock": 7
+    },
+    "P074": {
+      "nombre": "Brownies clásicos mini · 25 pzas",
+      "categoria": "Galletas y brownies",
+      "precio": "240.00",
+      "stock": 12
+    },
+    "P075": {
+      "nombre": "Brownies clásicos mini · 50 pzas",
+      "categoria": "Galletas y brownies",
+      "precio": "450.00",
+      "stock": 12
+    },
+    "P076": {
+      "nombre": "Brownies clásicos mini · 100 pzas",
+      "categoria": "Galletas y brownies",
+      "precio": "800.00",
+      "stock": 7
+    },
+    "P077": {
+      "nombre": "Brownies con nuez mini · 25 pzas",
+      "categoria": "Galletas y brownies",
+      "precio": "300.00",
+      "stock": 12
+    },
+    "P078": {
+      "nombre": "Brownies con nuez mini · 50 pzas",
+      "categoria": "Galletas y brownies",
+      "precio": "550.00",
+      "stock": 12
+    },
+    "P079": {
+      "nombre": "Brownies con nuez mini · 100 pzas",
+      "categoria": "Galletas y brownies",
+      "precio": "1000.00",
+      "stock": 7
+    },
+    "P080": {
+      "nombre": "Trufas mini · 25 pzas",
+      "categoria": "Especialidades",
+      "precio": "350.00",
+      "stock": 12
+    },
+    "P081": {
+      "nombre": "Trufas mini · 50 pzas",
+      "categoria": "Especialidades",
+      "precio": "650.00",
+      "stock": 12
+    },
+    "P082": {
+      "nombre": "Trufas mini · 100 pzas",
+      "categoria": "Especialidades",
+      "precio": "1200.00",
+      "stock": 7
+    },
+    "P083": {
+      "nombre": "Piononos mini · 25 pzas",
+      "categoria": "Especialidades",
+      "precio": "200.00",
+      "stock": 12
+    },
+    "P084": {
+      "nombre": "Piononos mini · 50 pzas",
+      "categoria": "Especialidades",
+      "precio": "350.00",
+      "stock": 12
+    },
+    "P085": {
+      "nombre": "Piononos mini · 100 pzas",
+      "categoria": "Especialidades",
+      "precio": "600.00",
+      "stock": 7
+    },
+    "P086": {
+      "nombre": "Pay de limón mini · 25 pzas",
+      "categoria": "Pasteles y postres",
+      "precio": "350.00",
+      "stock": 11
+    },
+    "P087": {
+      "nombre": "Pay de limón mini · 50 pzas",
+      "categoria": "Pasteles y postres",
+      "precio": "650.00",
+      "stock": 12
+    },
+    "P088": {
+      "nombre": "Pay de limón mini · 100 pzas",
+      "categoria": "Pasteles y postres",
+      "precio": "1200.00",
+      "stock": 7
+    },
+    "P089": {
+      "nombre": "Pay de manzana mini · 25 pzas",
+      "categoria": "Pasteles y postres",
+      "precio": "240.00",
+      "stock": 12
+    },
+    "P090": {
+      "nombre": "Pay de manzana mini · 50 pzas",
+      "categoria": "Pasteles y postres",
+      "precio": "450.00",
+      "stock": 12
+    },
+    "P091": {
+      "nombre": "Pay de manzana mini · 100 pzas",
+      "categoria": "Pasteles y postres",
+      "precio": "800.00",
+      "stock": 7
+    },
+    "P092": {
+      "nombre": "Orejitas · 25 pzas",
+      "categoria": "Especialidades",
+      "precio": "200.00",
+      "stock": 12
+    },
+    "P093": {
+      "nombre": "Orejitas · 50 pzas",
+      "categoria": "Especialidades",
+      "precio": "350.00",
+      "stock": 12
+    },
+    "P094": {
+      "nombre": "Orejitas · 100 pzas",
+      "categoria": "Especialidades",
+      "precio": "600.00",
+      "stock": 7
+    },
+    "P095": {
+      "nombre": "Milhojas de cajeta · 25 pzas",
+      "categoria": "Especialidades",
+      "precio": "200.00",
+      "stock": 12
+    },
+    "P096": {
+      "nombre": "Milhojas de cajeta · 50 pzas",
+      "categoria": "Especialidades",
+      "precio": "350.00",
+      "stock": 12
+    },
+    "P097": {
+      "nombre": "Milhojas de cajeta · 100 pzas",
+      "categoria": "Especialidades",
+      "precio": "600.00",
+      "stock": 7
+    },
+    "P098": {
+      "nombre": "Tartaletas de durazno y fresa · 25 pzas",
+      "categoria": "Pasteles y postres",
+      "precio": "240.00",
+      "stock": 12
+    },
+    "P099": {
+      "nombre": "Tartaletas de durazno y fresa · 50 pzas",
+      "categoria": "Pasteles y postres",
+      "precio": "450.00",
+      "stock": 12
+    },
+    "P100": {
+      "nombre": "Tartaletas de durazno y fresa · 100 pzas",
+      "categoria": "Pasteles y postres",
+      "precio": "800.00",
+      "stock": 7
+    },
+    "P101": {
+      "nombre": "Croissant de mantequilla",
+      "categoria": "Panadería",
+      "precio": "38.00",
+      "stock": 25
+    },
+    "P102": {
+      "nombre": "Rol de canela",
+      "categoria": "Panadería",
+      "precio": "42.00",
+      "stock": 25
+    },
+    "P103": {
+      "nombre": "Pan de chocolate",
+      "categoria": "Panadería",
+      "precio": "35.00",
+      "stock": 25
+    },
+    "P104": {
+      "nombre": "Pan de masa madre",
+      "categoria": "Panadería",
+      "precio": "65.00",
+      "stock": 25
+    },
+    "P105": {
+      "nombre": "Panqué de naranja",
+      "categoria": "Panadería",
+      "precio": "45.00",
+      "stock": 25
+    },
+    "P106": {
+      "nombre": "Concha de vainilla",
+      "categoria": "Panadería",
+      "precio": "22.00",
+      "stock": 25
+    },
+    "P107": {
+      "nombre": "Dona de chocolate",
+      "categoria": "Panadería",
+      "precio": "30.00",
+      "stock": 25
+    },
+    "P108": {
+      "nombre": "Pan integral con miel",
+      "categoria": "Panadería",
+      "precio": "55.00",
+      "stock": 25
+    },
+    "P109": {
+      "nombre": "Pan de cebolla",
+      "categoria": "Panadería",
+      "precio": "38.00",
+      "stock": 25
+    },
+    "P110": {
+      "nombre": "Baguette artesanal",
+      "categoria": "Panadería",
+      "precio": "55.00",
+      "stock": 25
+    },
+    "P111": {
+      "nombre": "Galleta de avena",
+      "categoria": "Panadería",
+      "precio": "25.00",
+      "stock": 25
+    },
+    "P112": {
+      "nombre": "Café americano",
+      "categoria": "Bebidas",
+      "precio": "38.00",
+      "stock": 25
+    },
+    "P113": {
+      "nombre": "Capuchino",
+      "categoria": "Bebidas",
+      "precio": "48.00",
+      "stock": 25
+    },
+    "P114": {
+      "nombre": "Café latte",
+      "categoria": "Bebidas",
+      "precio": "48.00",
+      "stock": 25
+    },
+    "P115": {
+      "nombre": "Espresso",
+      "categoria": "Bebidas",
+      "precio": "32.00",
+      "stock": 25
+    },
+    "P116": {
+      "nombre": "Moka",
+      "categoria": "Bebidas",
+      "precio": "55.00",
+      "stock": 25
+    },
+    "P117": {
+      "nombre": "Chocolate caliente",
+      "categoria": "Bebidas",
+      "precio": "48.00",
+      "stock": 25
+    },
+    "P118": {
+      "nombre": "Té de frutos rojos",
+      "categoria": "Bebidas",
+      "precio": "38.00",
+      "stock": 25
+    },
+    "P119": {
+      "nombre": "Malteada de fresa",
+      "categoria": "Helados y fríos",
+      "precio": "65.00",
+      "stock": 25
+    },
+    "P120": {
+      "nombre": "Limonada rosa",
+      "categoria": "Bebidas",
+      "precio": "42.00",
+      "stock": 25
+    },
+    "P121": {
+      "nombre": "Matcha latte",
+      "categoria": "Bebidas",
+      "precio": "59.00",
+      "stock": 25
+    },
+    "P122": {
+      "nombre": "Muffin de chocolate",
+      "categoria": "Panadería",
+      "precio": "35.00",
+      "stock": 24
+    },
+    "P123": {
+      "nombre": "Crepas con fresas",
+      "categoria": "Desayunos dulces",
+      "precio": "78.00",
+      "stock": 18
+    },
+    "P124": {
+      "nombre": "Hot cakes con miel",
+      "categoria": "Desayunos dulces",
+      "precio": "85.00",
+      "stock": 17
+    },
+    "P125": {
+      "nombre": "Jugo de naranja natural",
+      "categoria": "Bebidas",
+      "precio": "45.00",
+      "stock": 22
+    },
+    "P126": {
+      "nombre": "Frappé de chocolate",
+      "categoria": "Bebidas",
+      "precio": "68.00",
+      "stock": 22
+    },
+    "P127": {
+      "nombre": "Chocolate con malvaviscos",
+      "categoria": "Bebidas",
+      "precio": "58.00",
+      "stock": 22
+    },
+    "P128": {
+      "nombre": "Té de canela",
+      "categoria": "Bebidas",
+      "precio": "35.00",
+      "stock": 20
+    },
+    "P129": {
+      "nombre": "Flan de caramelo individual",
+      "categoria": "Pasteles y postres",
+      "precio": "48.00",
+      "stock": 18
+    },
+    "P130": {
+      "nombre": "Pay de manzana porción",
+      "categoria": "Pasteles y postres",
+      "precio": "52.00",
+      "stock": 18
+    },
+    "P131": {
+      "nombre": "Helado de tres sabores",
+      "categoria": "Helados y fríos",
+      "precio": "65.00",
+      "stock": 18
+    },
+    "P132": {
+      "nombre": "Macarons surtidos (3 piezas)",
+      "categoria": "Especialidades",
+      "precio": "75.00",
+      "stock": 20
+    },
+    "P133": {
+      "nombre": "Gorro de cumpleaños",
+      "categoria": "Accesorios",
+      "precio": "25.00",
+      "stock": 25
+    },
+    "P134": {
+      "nombre": "Velas para pastel",
+      "categoria": "Accesorios",
+      "precio": "22.00",
+      "stock": 24
+    },
+    "P135": {
+      "nombre": "Topper Feliz Cumpleaños",
+      "categoria": "Accesorios",
+      "precio": "45.00",
+      "stock": 20
+    },
+    "P136": {
+      "nombre": "Platos desechables para pastel (10 piezas)",
+      "categoria": "Accesorios",
+      "precio": "32.00",
+      "stock": 15
+    },
+    "P137": {
+      "nombre": "Servilletas decoradas (20 piezas)",
+      "categoria": "Accesorios",
+      "precio": "30.00",
+      "stock": 14
+    },
+    "P138": {
+      "nombre": "Pastel de tiramisu",
+      "categoria": "Pasteles",
+      "precio": "400.00",
+      "stock": 3
+    },
+    "P139": {
+      "nombre": "Pastel de coco",
+      "categoria": "Pasteles",
+      "precio": "350.00",
+      "stock": 5
+    },
+    "P140": {
+      "nombre": "Galletas de pistache (3 piezas)",
+      "categoria": "Galletas y brownies",
+      "precio": "40.00",
+      "stock": 8
+    },
+    "P141": {
+      "nombre": "Helado de menta",
+      "categoria": "Helados",
+      "precio": "25.00",
+      "stock": 6
+    },
+    "P142": {
+      "nombre": "Fresas con crema",
+      "categoria": "Postres",
+      "precio": "80.00",
+      "stock": 10
+    }
+  },
+  "ventas": [
+    {
+      "folio": "V0001",
+      "fecha": "09/11/2026 12:03",
+      "cliente": "Malkih López González",
+      "vendedor": "cajero",
+      "detalle": [
+        {
+          "codigo": "P001",
+          "nombre": "Pastel de tres leches",
+          "cantidad": 1,
+          "precio": "350.00",
+          "importe": "350.00"
+        },
+        {
+          "codigo": "P137",
+          "nombre": "Servilletas decoradas (20 piezas)",
+          "cantidad": 1,
+          "precio": "30.00",
+          "importe": "30.00"
+        },
+        {
+          "codigo": "P134",
+          "nombre": "Velas para pastel",
+          "cantidad": 1,
+          "precio": "22.00",
+          "importe": "22.00"
+        }
+      ],
+      "subtotal": "402.00",
+      "iva": "64.32",
+      "total": "466.32"
+    },
+    {
+      "folio": "V0002",
+      "fecha": "09/11/2026 12:13",
+      "cliente": "Sar López González",
+      "vendedor": "cajero",
+      "detalle": [
+        {
+          "codigo": "P006",
+          "nombre": "Pastel de vainilla y frutos rojos",
+          "cantidad": 1,
+          "precio": "365.00",
+          "importe": "365.00"
+        },
+        {
+          "codigo": "P004",
+          "nombre": "Pastel de zarzamora con queso",
+          "cantidad": 3,
+          "precio": "350.00",
+          "importe": "1050.00"
+        },
+        {
+          "codigo": "P138",
+          "nombre": "Pastel de tiramisu",
+          "cantidad": 3,
+          "precio": "400.00",
+          "importe": "1200.00"
+        }
+      ],
+      "subtotal": "2615.00",
+      "iva": "418.40",
+      "total": "3033.40"
+    },
+    {
+      "folio": "V0003",
+      "fecha": "09/11/2026 12:28",
+      "cliente": "Jóse Alberto Hernandez Cruz",
+      "vendedor": "admin",
+      "detalle": [
+        {
+          "codigo": "P124",
+          "nombre": "Hot cakes con miel",
+          "cantidad": 1,
+          "precio": "85.00",
+          "importe": "85.00"
+        }
+      ],
+      "subtotal": "85.00",
+      "iva": "13.60",
+      "total": "98.60"
+    },
+    {
+      "folio": "V0004",
+      "fecha": "09/11/2026 12:42",
+      "cliente": "Diana Nicole Uribe Hernandez",
+      "vendedor": "admin",
+      "detalle": [
+        {
+          "codigo": "P001",
+          "nombre": "Pastel de tres leches",
+          "cantidad": 1,
+          "precio": "350.00",
+          "importe": "350.00"
+        },
+        {
+          "codigo": "P007",
+          "nombre": "Pastel de zanahoria",
+          "cantidad": 1,
+          "precio": "320.00",
+          "importe": "320.00"
+        },
+        {
+          "codigo": "P086",
+          "nombre": "Pay de limón mini · 25 pzas",
+          "cantidad": 1,
+          "precio": "350.00",
+          "importe": "350.00"
+        }
+      ],
+      "subtotal": "1020.00",
+      "iva": "163.20",
+      "total": "1183.20"
+    },
+    {
+      "folio": "V0005",
+      "fecha": "09/11/2026 13:05",
+      "cliente": "Alondra Bautista Flores",
+      "vendedor": "admin",
+      "detalle": [
+        {
+          "codigo": "P004",
+          "nombre": "Pastel de zarzamora con queso",
+          "cantidad": 1,
+          "precio": "350.00",
+          "importe": "350.00"
+        }
+      ],
+      "subtotal": "350.00",
+      "iva": "56.00",
+      "total": "406.00"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+Esta carpeta contiene los datos persistentes del programa.
+Al iniciar TIENDA se creará tienda_datos.json automáticamente.
+Si usabas una versión anterior, COPIA AQUÍ tu tienda_datos.json original
+antes de ejecutar el programa, para conservar tus cambios.
+No elimines esta carpeta después de empezar a usar TIENDA.

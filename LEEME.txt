@@ -1,0 +1,56 @@
+PRÁCTICA 8 — PROGRAMACIÓN CON PYTHON
+TIENDA · Pastelería y Repostería · versión: ocho categorías e imágenes PNG sin fondo
+
+ABRIR EN PYCHARM
+1. Extrae todo el ZIP en una carpeta. Abre la carpeta «TIENDA» desde PyCharm.
+2. Ejecuta main.py (o en PowerShell: py main.py).
+3. No necesitas instalar paquetes, usar MySQL ni conectarte a Internet.
+4. La primera vez puedes entrar con admin / 1234, cajero / 1234 o inventario / 1234.
+   Cambia estas claves desde «Mi contraseña» (mínimo 6 caracteres en claves nuevas).
+
+MENÚ Y CATEGORÍAS
+- Hay 8 tarjetas interactivas con imágenes de postres SIN fondo. Las otras imágenes
+  también se muestran en una pequeña galería al seleccionar cada categoría.
+- Categorías: Bebidas; Pasteles y postres; Galletas y brownies; Panadería;
+  Desayunos dulces; Helados y fríos; Especialidades; Accesorios.
+- El catálogo inicial contiene 137 productos de ejemplo (incluidos gorros de
+  cumpleaños, velas, toppers, servilletas y platos para pastel).
+- Presiona «Ver productos» en una tarjeta o usa el selector «Categoría» para
+  mostrar solo esos artículos. También puedes escribir en «Buscar».
+- Selecciona una fila y pulsa «Agregar a una venta», o haz doble clic.
+- Las tarjetas tienen su propio contenido interactivo; NO son fotografías
+  de la interfaz. Los ilustraciones transparentes vienen del material preparado
+  a partir de las imágenes compartidas para este proyecto.
+
+GUARDADO AUTOMÁTICO Y ACTUALIZACIÓN DESDE UNA VERSIÓN ANTERIOR
+- Se guardan clientes, productos, precios, stock, usuarios, roles, contraseñas
+  y ventas en TIENDA/data/tienda_datos.json (sin base de datos SQL).
+- Si ya usabas una versión anterior, haz copia de seguridad de su carpeta data
+  y luego COPIA su archivo tienda_datos.json a esta nueva carpeta TIENDA/data.
+  Primero cierra cualquier TIENDA abierta. Al iniciar, el programa actualizará
+  las categorías y añadirá los productos nuevos UNA sola vez, SIN borrar tus
+  clientes, ventas, contraseñas, precios ni cantidades guardadas.
+- El archivo previo se respalda automáticamente en tienda_datos.bak.
+- No borres la carpeta data ni abras dos copias de TIENDA simultáneamente.
+
+ROLES
+Administrador: gestiona inventario, usuarios, clientes y ventas.
+Cajero: puede registrar ventas y consultar tickets.
+Inventario: puede administrar productos, pero no realizar cobros.
+
+TICKET Y CÁLCULO
+Importe = cantidad × precio
+Subtotal = suma de los importes
+IVA (16 %) = subtotal × 0.16
+Total = subtotal + IVA
+«Ver para el cliente» abre una vista previa SIN registrar la venta.
+«Cobrar y crear ticket» registra la venta, descuenta existencias, guarda el
+historial y permite guardar el ticket como TXT. No afecta otras ventas anteriores.
+
+PRUEBAS
+Ejecuta python pruebas.py para revisar persistencia, contraseñas y cálculos.
+Los precios son de demostración; puedes modificarlos en Productos.
+
+ENTREGA
+Muestra el funcionamiento a tu profesora; entrega el reporte en tu carpeta
+personal y pega su enlace en la actividad. Actualiza tus datos del reporte.
